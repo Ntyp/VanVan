@@ -1,0 +1,780 @@
+{
+    "province": [
+        {
+            "name": {
+                "th": "กำแพงเพชร",
+                "en": "Kamphaeng Phet"
+              },
+              "cost": "2000",
+              "distance": "358/กม",
+              "oilbill": "2300",
+              "time": "4.30 ชม."
+
+        },
+        {
+            "name": {
+                "th": "ชัยนาท",
+                "en": "Chai Nat"
+              },
+              "cost": "1800",
+              "distance": "194/กม",
+              "oilbill": "1300",
+              "time": "3.30 ชม."
+
+        },
+        {
+            "name": {
+                "th": "นครนายก",
+                "en": "Nakhon Nayok"
+              },
+              "cost": "1800",
+              "distance": "107/กม",
+              "oilbill": "800",
+              "time": "1.20 ชม."
+
+        },
+        {
+            "name": {
+                "th": "นครปฐม",
+                "en": "Nakhon Pathom"
+              },
+              "cost": "1800",
+              "distance": "56/กม",
+              "oilbill": "500",
+              "time": "1.20 ชม."
+
+        },
+        {
+            "name": {
+                "th": "นครสวรรค์",
+                "en": "Nakhon Sawan"
+              },
+              "cost": "1800",
+              "distance": "240/กม",
+              "oilbill": "1600",
+              "time": "3.10 ชม."
+
+        },
+        {
+            "name": {
+                "th": "นนทบุรี",
+                "en": "Nonthaburi"
+              },
+              "cost": "1800",
+              "distance": "20/กม",
+              "oilbill": "200",
+              "time": "26 นาที"
+
+        },
+        {
+            "name": {
+                "th": "ปทุมธานี",
+                "en": "Pathum Thani"
+              },
+              "cost": "1800",
+              "distance": "46/กม",
+              "oilbill": "450",
+              "time": "45 นาที"
+
+        },
+        {
+            "name": {
+                "th": "พระนครศรีอยุธยา",
+                "en": "Phra Nakhon Si Ayutthaya"
+              },
+              "cost": "1800",
+              "distance": "76/กม",
+              "oilbill": "800",
+              "time": "1 ชม."
+
+        },
+        {
+            "name": {
+                "th": "พิจิตร",
+                "en": "Phichit"
+              },
+              "cost": "1800",
+              "distance": "344/กม",
+              "oilbill": "2300",
+              "time": "4.30 ชม."
+
+        },
+        {
+            "name": {
+                "th": "พิษณุโลก",
+                "en": "Phitsanulok"
+              },
+              "cost": "2000",
+              "distance": "377/กม",
+              "oilbill": "2500",
+              "time": "4.40 ชม."
+
+        },
+        {
+            "name": {
+                "th": "เพชรบูรณ์",
+                "en": "Phetchabun"
+              },
+              "cost": "2000",
+              "distance": "377/กม",
+              "oilbill": "2500",
+              "time": "4.40 ชม."
+
+        },
+        {
+            "name": {
+                "th": "ลพบุรี",
+                "en": "Lop Buri"
+              },
+              "cost": "1800",
+              "distance": "153/กม",
+              "oilbill": "1000",
+              "time": "2 ชม."
+
+        },
+        {
+            "name": {
+                "th": "สมุทรปราการ",
+                "en": "Samut Prakarn"
+              },
+              "cost": "1800",
+              "distance": "29/กม",
+              "oilbill": "300",
+              "time": "35 นาที"
+
+        },
+        {
+            "name": {
+                "th": "สมุทรสงคราม",
+                "en": "Samut Songkhram"
+              },
+              "cost": "1800",
+              "distance": "29/กม",
+              "oilbill": "600",
+              "time": "35 นาที"
+
+        },
+
+        {
+          "name": {
+              "th": "สมุทรสาคร",
+              "en": "Samut Sakhon"
+            },
+            "cost": "1800",
+            "distance": "72/กม",
+            "oilbill": "400",
+            "time": "1 ชม."
+        },
+        {
+          "name": {
+              "th": "สิงห์บุรี",
+              "en": "Sing Buri"
+            },
+            "cost": "1800",
+            "distance": "142/กม",
+            "oilbill": "1000",
+            "time": "2.15 ชม."
+        },
+        {
+          "name": {
+              "th": "สุโขทัย",
+              "en": "Sukhothai"
+            },
+            "cost": "2000",
+            "distance": "427/กม",
+            "oilbill": "2800",
+            "time": "5.20 ชม."
+        },
+        {
+          "name": {
+              "th": "สุพรรณบุรี",
+              "en": "Suphan Buri"
+            },
+            "cost": "1800",
+            "distance": "100/กม",
+            "oilbill": "700",
+            "time": "1.30 ชม."
+        },
+        {
+          "name": {
+              "th": "สระบุรี",
+              "en": "Saraburi"
+            },
+            "cost": "1800",
+            "distance": "107/กม",
+            "oilbill": "800",
+            "time": "1.30 ชม."
+        },
+        {
+          "name": {
+              "th": "อ่างทอง",
+              "en": "Ang Thong"
+            },
+            "cost": "1800",
+            "distance": "105/กม",
+            "oilbill": "700",
+            "time": "1.36 ชม."
+        },
+        {
+          "name": {
+              "th": "อุทัยธานี",
+              "en": "Uthai Thani"
+            },
+            "cost": "1800",
+            "distance": "219/กม",
+            "oilbill": "1600",
+            "time": "3.20 ชม."
+        },
+        {
+          "name": {
+              "th": "เชียงราย",
+              "en": "Chiang Rai"
+            },
+            "cost": "2000",
+            "distance": "785/กม",
+            "oilbill": "5300",
+            "time": "10 ชม."
+        },
+        {
+          "name": {
+              "th": "เชียงใหม่",
+              "en": "Chiang Mai"
+            },
+            "cost": "2000",
+            "distance":"696/กม",
+            "oilbill": "4700",
+            "time": "9 ชม."
+        },
+        {
+          "name": {
+              "th": "น่าน",
+              "en": "Nan"
+            },
+            "cost": "2000",
+            "distance": "668/กม",
+            "oilbill": "4500",
+            "time": "8.40 ชม."
+        },
+        {
+          "name": {
+              "th": "พะเยา",
+              "en": "Phayao"
+            },
+            "cost": "2000",
+            "distance": "691/กม",
+            "oilbill": "4600",
+            "time": "9 ชม."
+        },
+        {
+          "name": {
+              "th": "แพร่",
+              "en": "Phrae"
+            },
+            "cost": "2000",
+            "distance": "551/กม",
+            "oilbill": "3700",
+            "time": "7 ชม."
+        },
+        {
+          "name": {
+              "th": "แม่ฮ่องสอน",
+              "en": "Mae Hong Son"
+            },
+            "cost": "2200",
+            "distance": "924/กม",
+            "oilbill": "6000",
+            "time": "11.45 ชม."
+        },
+        {
+          "name": {
+              "th": "ลำปาง",
+              "en": "Lampang"
+            },
+            "cost": "2000",
+            "distance": "599/กม",
+            "oilbill": "4000",
+            "time": "7.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ลำพูน",
+              "en": "Lamphun"
+            },
+            "cost": "2000",
+            "distance": "670/กม",
+            "oilbill": "4500",
+            "time": "8.30 ชม."
+        },
+        {
+          "name": {
+              "th": "อุตรดิตถ์",
+              "en": "Uttaradit"
+            },
+            "cost": "2000",
+            "distance": "491/กม",
+            "oilbill": "3200",
+            "time": "6.10 ชม."
+        },
+        {
+          "name": {
+              "th": "กาฬสินธุ์",
+              "en": "Kalasin"
+            },
+            "cost": "2000",
+            "distance": "519/กม",
+            "oilbill": "3600",
+            "time": "6.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ขอนแก่น",
+              "en": "Khon Kaen"
+            },
+            "cost": "2000",
+            "distance": "449/กม",
+            "oilbill": "3100",
+            "time": "5.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ชัยภูมิ",
+              "en": "Chaiyaphum"
+            },
+            "cost": "1800",
+            "distance": "342/กม",
+            "oilbill": "2100",
+            "time": "6.40 ชม."
+        },
+        {
+          "name": {
+              "th": "นครพนม",
+              "en": "Nakhon Phanom"
+            },
+            "cost": "2000",
+            "distance": "740/กม",
+            "oilbill": "5000",
+            "time": "9.30 ชม."
+        },
+        {
+          "name": {
+              "th": "นครราชสีมา",
+              "en": "Nakhon Ratchasima"
+            },
+            "cost": "1800",
+            "distance": "259/กม",
+            "oilbill": "1800",
+            "time": "3.30 ชม."
+        },
+        {
+          "name": {
+              "th": "บึงกาฬ",
+              "en": "Bueng Kan"
+            },
+            "cost": "2000",
+            "distance": "762/กม",
+            "oilbill": "5100",
+            "time": "10 ชม."
+        },
+        {
+          "name": {
+              "th": "บุรีรัมย์",
+              "en": "Buri Ram"
+            },
+            "cost": "1800",
+            "distance": "383/กม",
+            "oilbill": "2700",
+            "time": "5 ชม."
+        },
+        {
+          "name": {
+              "th": "มหาสารคาม",
+              "en": "Maha Sarakham"
+            },
+            "cost": "2000",
+            "distance": "475/กม",
+            "oilbill": "3300",
+            "time": "6 ชม."
+        },
+        {
+          "name": {
+              "th": "มุกดาหาร",
+              "en": "Mukdahan"
+            },
+            "cost": "2000",
+            "distance": "642/กม",
+            "oilbill": "4400",
+            "time": "9 ชม."
+        },
+        {
+          "name": {
+              "th": "ยโสธร",
+              "en": "Yasothon"
+            },
+            "cost": "2000",
+            "distance": "531/กม",
+            "oilbill": "3700",
+            "time": "7 ชม."
+        },
+        {
+          "name": {
+              "th": "ร้อยเอ็ด",
+              "en": "Roi Et"
+            },
+            "cost": "2000",
+            "distance": "512/กม",
+            "oilbill": "3500",
+            "time": "6.30 ชม."
+        },
+        {
+          "name": {
+              "th": "เลย",
+              "en": "Loei"
+            },
+            "cost": "2000",
+            "distance": "520/กม",
+            "oilbill": "3700",
+            "time": "7.30 ชม."
+        },
+        {
+          "name": {
+              "th": "สกลนคร",
+              "en": "Sakon Nakhon"
+            },
+            "cost": "2000",
+            "distance": "647/กม",
+            "oilbill": "4400",
+            "time": "8.30 ชม."
+        },
+        {
+          "name": {
+              "th": "สุรินทร์",
+              "en": "Surin"
+            },
+            "cost": "2000",
+            "distance": "426/กม",
+            "oilbill": "3000",
+            "time": "5.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ศรีสะเกษ",
+              "en": "Si Sa Ket"
+            },
+            "cost": "2000",
+            "distance": "531/กม",
+            "oilbill": "3700",
+            "time": "7.30 ชม."
+        },
+        {
+          "name": {
+              "th": "หนองคาย",
+              "en": "Nong Khai"
+            },
+            "cost": "2000",
+            "distance": "615/กม",
+            "oilbill": "4200",
+            "time": "8 ชม."
+        },
+        {
+          "name": {
+              "th": "หนองบัวลำภู",
+              "en": "Nong Bua Lam Phu"
+            },
+            "cost": "2000",
+            "distance": "577/กม",
+            "oilbill": "3600",
+            "time": "7 ชม."
+        },
+        {
+          "name": {
+              "th": "อุดรธานี",
+              "en": "Udon Thani"
+            },
+            "cost": "2000",
+            "distance": "564/กม",
+            "oilbill": "3900",
+            "time": "7 ชม."
+        },
+        {
+          "name": {
+              "th": "อุบลราชธานี",
+              "en": "Ubon Ratchathani"
+            },
+            "cost": "2000",
+            "distance": "592/กม",
+            "oilbill": "4100",
+            "time": "8 ชม."
+        },
+        {
+          "name": {
+              "th": "อำนาจเจริญ",
+              "en": "Kalasin"
+            },
+            "cost": "2000",
+            "distance": "585/กม",
+            "oilbill": "4000",
+            "time": "7.30 ชม."
+        },
+        {
+          "name": {
+              "th": "จันทบุรี",
+              "en": "Chanthaburi"
+            },
+            "cost": "2000",
+            "distance": "245/กม",
+            "oilbill": "1700",
+            "time": "2.40 ชม."
+        },
+        {
+          "name": {
+              "th": "ฉะเชิงเทรา",
+              "en": "Chachoengsao"
+            },
+            "cost": "1800",
+            "distance": "82/กม",
+            "oilbill": "600",
+            "time": "1.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ชลบุรี",
+              "en": "Chon Buri"
+            },
+            "cost": "1800",
+            "distance": "81/กม",
+            "oilbill": "600",
+            "time": "1.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ตราด",
+              "en": "Trat"
+            },
+            "cost": "2000",
+            "distance": "315/กม",
+            "oilbill": "2200",
+            "time": "4.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ปราจีนบุรี",
+              "en": "Prachin Buri"
+            },
+            "cost": "1800",
+            "distance": "136/กม",
+            "oilbill": "950",
+            "time": "2.40 ชม."
+        },
+        {
+          "name": {
+              "th": "ระยอง",
+              "en": "Rayong"
+            },
+            "cost": "1800",
+            "distance": "179/กม",
+            "oilbill": "1300",
+            "time": "2.30 ชม."
+        },
+        {
+          "name": {
+              "th": "สระแก้ว",
+              "en": "Sa kaeo"
+            },
+            "cost": "1800",
+            "distance": "237/กม",
+            "oilbill": "1400",
+            "time": "3 ชม."
+        },
+        {
+          "name": {
+              "th": "กาญจนบุรี",
+              "en": "Kanchanaburi"
+            },
+            "cost": "1800",
+            "distance": "128/กม",
+            "oilbill": "850",
+            "time": "2 ชม."
+        },
+        {
+          "name": {
+              "th": "ตาก",
+              "en": "Tak"
+            },
+            "cost": "2000",
+            "distance": "426/กม",
+            "oilbill": "2800",
+            "time": "5.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ประจวบคีรีขันธ์",
+              "en": "Prachuap Khiri Khan"
+            },
+            "cost": "2000",
+            "distance": "281/กม",
+            "oilbill": "1900",
+            "time": "3.40 ชม."
+        },
+        {
+          "name": {
+              "th": "เพชรบุรี",
+              "en": "Phetchaburi"
+            },
+            "cost": "1800",
+            "distance": "123/กม",
+            "oilbill": "900",
+            "time": "1.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ราชบุรี",
+              "en": "Ratchaburi"
+            },
+            "cost": "1800",
+            "distance": "100/กม",
+            "oilbill": "700",
+            "time": "1.20 ชม."
+        },
+        {
+          "name": {
+              "th": "กระบี่",
+              "en": "Krabi"
+            },
+            "cost": "2200",
+            "distance": "814/กม",
+            "oilbill": "5200",
+            "time": "9.30 ชม."
+        },
+        {
+          "name": {
+              "th": "ชุมพร",
+              "en": "Chumphon"
+            },
+            "cost": "2000",
+            "distance": "463/กม",
+            "oilbill": "3200",
+            "time": "6 ชม."
+        },
+        {
+          "name": {
+              "th": "ตรัง",
+              "en": "Trang"
+            },
+            "cost": "2200",
+            "distance": "828/กม",
+            "oilbill": "5600",
+            "time": "10.30 ชม."
+        },
+        {
+          "name": {
+              "th": "นครศรีธรรมราช",
+              "en": "Nakhon Si Thammarat"
+            },
+            "cost": "2000",
+            "distance": "780/กม",
+            "oilbill": "5300",
+            "time": "10 ชม."
+        },
+        {
+          "name": {
+              "th": "นราธิวาส",
+              "en": "Narathiwat"
+            },
+            "cost": "2500",
+            "distance": "1149/กม",
+            "oilbill": "7600",
+            "time": "14 ชม."
+        },
+        {
+          "name": {
+              "th": "ปัตตานี",
+              "en": "Pattani"
+            },
+            "cost": "2500",
+            "distance": "1055/กม",
+            "oilbill": "7000",
+            "time": "13 ชม."
+        },
+        {
+          "name": {
+              "th": "พังงา",
+              "en": "Phang-nga"
+            },
+            "cost": "2200",
+            "distance": "788/กม",
+            "oilbill": "5100",
+            "time": "11 ชม."
+        },
+        {
+          "name": {
+              "th": "พัทลุง",
+              "en": "Phatthalung"
+            },
+            "cost": "2200",
+            "distance": "840/กม",
+            "oilbill": "5700",
+            "time": "12 ชม."
+        },
+        {
+          "name": {
+              "th": "ภูเก็ต",
+              "en": "Phuket"
+            },
+            "cost": "2200",
+            "distance": "862/กม",
+            "oilbill": "5700",
+            "time": "12 ชม."
+        },
+        {
+          "name": {
+              "th": "ระนอง",
+              "en": "Ranong"
+            },
+            "cost": "2000",
+            "distance": "568/กม",
+            "oilbill": "4000",
+            "time": "9 ชม."
+        },
+        {
+          "name": {
+              "th": "สตูล",
+              "en": "Satun"
+            },
+            "cost": "2500",
+            "distance": "973/กม",
+            "oilbill": "6700",
+            "time": "13 ชม."
+        },
+        {
+          "name": {
+              "th": "สงขลา",
+              "en": "Songkhla"
+            },
+            "cost": "2500",
+            "distance": "950/กม",
+            "oilbill": "6500",
+            "time": "12.30 ชม."
+        },
+        {
+          "name": {
+              "th": "สุราษฎร์ธานี",
+              "en": "Surat Thani"
+            },
+            "cost": "2000",
+            "distance": "644/กม",
+            "oilbill": "4300",
+            "time": "8 ชม."
+        },
+        {
+          "name": {
+              "th": "ยะลา",
+              "en": "Yala"
+            },
+            "cost": "2500",
+            "distance": "1084/กม",
+            "oilbill": "7100",
+            "time": "13 ชม."
+        }
+    ]
+        
+}

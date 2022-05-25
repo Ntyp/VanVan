@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Pridi', serif;
+}
+body{
+    font-family: montserrat;
+    line-height: 20px;
+    background-image: url(../img/downtown-690826_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+p {
+    margin: 0 0 20px 0;
+}
+nav {
+    background: #272e3e;
+    height: 80px;
+    width: 100%;
+}
+nav ol,ul {
+    margin: 0;
+}
+nav ul li a:hover{
+    text-decoration: none;
+}
+label.logo{
+    color: #f0cf49;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: #f0cf49;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a .nava:hover {
+    background: #14171f;
+    transition: .5s;
+}
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:952px) {
+    label.logo {
+        font-size: 30px;    
+        padding-left: 50px;
+
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #14171f;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0 ;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #f0cf49;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #f0cf49;
+    text-align: center;
+    background:#272e3e;
+    
+}
+footer p {
+    margin: 0;
+}
+
+.eiei {
+    background-image: url(../img/1.jpg);
+}
+/* ********************* */
+        /* index */
+/* ********************* */
+.white-bg {
+    background:#fff;
+}
+.white-bg p{
+    text-align: center;
+}
+.wallpaper {
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    
+    ),url(../img/vanvan1.jpg    );
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.wallpaper p {
+    font-size: 20px;
+}
+.wallpaper h1 {
+    font-size: 40px;
+    color: #272e3e;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.feature {
+    padding: 30px 30px 20px 120px;
+    position: relative;
+    background: #fff;
+    margin-bottom: 30px;
+    color: #888;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+.feature i {
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 0;
+    margin: 0;
+    width: 65px;
+    height: 65px;
+    line-height: 60px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px dashed #ccc;
+    font-size: 34px;
+    color: #f0cf49;
+}
+.main_title p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+.yl{
+    color: #f9c500;
+}
+.y2{
+    color: #14171f;
+}
+.margin_60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container-mid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-mid h2,h1 {
+    text-align: center;
+}
+.feature-content {
+    position: relative;
+    padding: 11% 100px 10% 100px;
+    height: 400px;
+    background-color: #f9c500;
+    color:  #14171f;
+    font-size: 14px;
+}
+.btn_1 .white{
+    background: #fff;
+    color: #14171f;
+}
+.btn_1 {
+    border: none;
+    font-size: inherit;
+    color: #fff;
+    background: #47a0ff;
+    cursor: pointer;
+    padding: 7px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.feature-img {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+ul.list_ok {
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 22px;
+}
+ul.list_ok li {
+    position: relative;
+    padding-left: 25px;
+    font-size: 20px;
+}
+@media (min-width: 768px) {
+.container-mid {
+    width: 750px;
+    }
+}
+
+/* ********************* */
+        /* rent */
+/* ********************* */
+
+.wrapper {
+    max-width: 500px;
+    width: 100%;
+    background:#f0cf49;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0,0.125);
+}
+.wrapper .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color:#272e3e;
+    text-transform: uppercase;
+    text-align: center;
+}
+.wrapper form{
+    width: 100%;
+}
+.wrapper form .input_filed{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrapper form .input_filed label {
+    width: 200px;
+    color: #272e3e;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.wrapper form .input_filed .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px; 
+    transition: all 0.3s ease;
+}
+.wrapper form .input_filed .custom_select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+.wrapper form .input_filed .custom_select select {
+    -webkit-appearance: none;
+    appearance: none;
+    box-decoration-break: 1px solid #d5d5d5;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+.wrapper form .input_filed .btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #14171f;
+    color: #f0cf49;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    margin-right: 5px;
+}
+.wrapper form .input_filed .btn:hover{
+background: #272e3e;
+}
+.wrapper form .input_filed .input:focus {
+    border: 1px solid  #14171f;
+}
+.wrapper form .input_filed .select:focus {
+    border: 1px solid  #14171f;
+}
+.banner {
+    position: relative;
+    background:#fff url(../img/banner_bg.png) no-repeat center bottom;
+    -webkit-border-radius: 3px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+    -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+    padding:30px;
+}
+@media (max-width: 420px) {
+    .wrapper form .input_filed{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .wrapper form .input_filed label {
+        margin-bottom: 5px;
+    }
+    .wrapper form .input_filed.terms{
+        flex-direction: row;
+    }
+    .wrapper form .input_filed .btn {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* ********************* */
+    /* Contract.html */
+/* ********************* */
+.wallpaper-contract {
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    
+    ),url(../img/downtown-690826_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+/* rentinfo */
+.table {
+	width: 50%;
+    border-collapse: collapse;
+    
+    margin: 50px 0 50px 0;
+}
+
+.table  td,.table  th{
+  padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+}
+
+.table  th{
+	background-color:#14171f;
+	color:#f0cf49;
+}
+
+.table  tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+}
+
+
+
+@media(max-width: 500px){
+	.table thead{
+		display: none;
+	}
+
+	.table, .table tbody, .table tr, .table td{
+		display: block;
+		width: 100%;
+	}
+	.table tr{
+		margin-bottom:15px;
+	}
+	.table td{
+		text-align: right;
+		padding-left: 50%;
+		text-align: right;
+		
+	}
+	.table td::before{
+		content: attr(data-label);
+		position: absolute;
+		left:0;
+		width: 50%;
+		padding-left:15px;
+		font-size:15px;
+		font-weight: bold;
+		text-align: left;
+	}
+}
+
+
+
+
+
+/* ********************* */
+    /* Contract.php */
+/* ********************* */
+/* .contract-img{
+    background-image: url(../img/vanvan1.jpg);
+    width: 100%;
+     */
+/* } */
